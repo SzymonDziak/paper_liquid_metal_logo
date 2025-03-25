@@ -7,7 +7,6 @@ precision mediump float;
 #include <flutter/runtime_effect.glsl>
 
 uniform vec2 uSize;
-uniform sampler2D u_image_texture;
 uniform float u_time;
 uniform float u_ratio;
 uniform float u_img_ratio;
@@ -16,6 +15,7 @@ uniform float u_refraction;
 uniform float u_edge;
 uniform float u_patternBlur;
 uniform float u_liquid;
+uniform sampler2D u_image_texture;
 
 out vec4 fragColor;
 
